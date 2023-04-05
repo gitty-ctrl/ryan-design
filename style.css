@@ -1,33 +1,30 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
-body{
-    font-family: roboto;
-    color: #fff;
-    background-color: rgb(16, 231, 9);
-    font-family: lucida Console;
-  
-    
-}
-.col
-{
-    float: left;
-    width: 50%;
-    text-align: left;
-    font-size: 15px;
+@import url(https://use.typekit.net/xuh6cog.css);
 
+body{
+    color: #fff;
+    background-color: #006951;
+    font-family: futura-pt, sans-serif;
 }
-.header{
-    background-color: rgb(16, 231, 9);
-    overflow: hidden;
-    padding-top: 10vh;
-    margin-bottom: 0px;
-    margin-top: 0;
-} 
-.col p{
-    padding-top: 50%;
-    font-size: x-large;
+
+
+h1{
+    text-align: center;
+    font-size: 105px;
+    font-weight: 700px;
+}
+p{
+    text-align: center;
+    margin-top: -2vh;
+    font-size: 44px;
+    font-weight: 500px;
+}
+
+@media screen and (max-width: 400px){
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: small;
+    }
+    
 }
