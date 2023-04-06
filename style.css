@@ -30,6 +30,7 @@ p a{
 }
 a:hover{
     outline: auto;
+    font-weight: 700;
 }
 .main{
     
