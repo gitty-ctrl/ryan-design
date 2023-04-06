@@ -27,10 +27,11 @@ p a{
     text-decoration: none;
     color: #fff;
     transition: transform .2s ease;
+    font-weight: 700;
 }
 a:hover{
     outline: auto;
-    font-weight: 700;
+    
 }
 .main{
     
